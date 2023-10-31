@@ -16,7 +16,7 @@ const SpecialOffers = () => {
         <Product
           _id="1101"
           img={spfOne}
-          productName="Cap for Boys"
+          productName="A4tech Bloody M590i Gaming Headphone"
           price="35.00"
           color="Blank and White"
           badge={true}
@@ -25,7 +25,7 @@ const SpecialOffers = () => {
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
+          productName="PS4 Dualshock 4 Wireless Controller Steel Glacier White"
           price="180.00"
           color="Gray"
           badge={true}
@@ -34,7 +34,7 @@ const SpecialOffers = () => {
         <Product
           _id="1103"
           img={spfThree}
-          productName="Headphones"
+          productName="Mibro Watch GS GPS Sports Smart Watch"
           price="25.00"
           color="Mixed"
           badge={true}
@@ -43,7 +43,7 @@ const SpecialOffers = () => {
         <Product
           _id="1104"
           img={spfFour}
-          productName="Sun glasses"
+          productName="Hoco HC9 Dazzling Pulse Wireless Bluetooth Speaker"
           price="220.00"
           color="Black"
           badge={true}

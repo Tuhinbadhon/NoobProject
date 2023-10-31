@@ -47,7 +47,7 @@ export const SplOfferData = [
   {
     _id: "201",
     img: spfOne,
-    productName: "Cap for Boys",
+    productName: "A4tech Bloody M590i Gaming Headphone",
     price: "35.00",
     color: "Blank and White",
     badge: true,
@@ -56,7 +56,7 @@ export const SplOfferData = [
   {
     _id: "202",
     img: newArrFour,
-    productName: "Tea Table",
+    productName: "PS4 Dualshock 4 Wireless Controller Steel Glacier White",
     price: "180.00",
     color: "Gray",
     badge: true,
@@ -65,7 +65,8 @@ export const SplOfferData = [
   {
     _id: "203",
     img: spfThree,
-    productName: "Headphones",
+    productName:
+      "Mibro Watch GS GPS Sports Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "25.00",
     color: "Mixed",
     badge: true,
@@ -74,7 +75,7 @@ export const SplOfferData = [
   {
     _id: "204",
     img: spfFour,
-    productName: "Sun glasses",
+    productName: "Hoco HC9 Dazzling Pulse Wireless Bluetooth Speaker",
     price: "220.00",
     color: "Black",
     badge: true,
@@ -89,7 +90,7 @@ export const paginationItems = [
   {
     _id: 1001,
     img: spfOne,
-    productName: "Cap for Boys",
+    productName: "A4tech Bloody M590i Gaming Headphone",
     price: "35.00",
     color: "Blank and White",
     badge: true,
@@ -98,7 +99,7 @@ export const paginationItems = [
   {
     _id: 1002,
     img: spfTwo,
-    productName: "Tea Table",
+    productName: "PS4 Dualshock 4 Wireless Controller Steel Glacier White",
     price: "180.00",
     color: "Gray",
     badge: true,
@@ -107,7 +108,8 @@ export const paginationItems = [
   {
     _id: 1003,
     img: spfThree,
-    productName: "Headphones",
+    productName:
+      "Mibro Watch GS GPS Sports Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "25.00",
     color: "Mixed",
     badge: true,
@@ -116,7 +118,7 @@ export const paginationItems = [
   {
     _id: 1004,
     img: spfFour,
-    productName: "Sun glasses",
+    productName: "Hoco HC9 Dazzling Pulse Wireless Bluetooth Speaker",
     price: "220.00",
     color: "Black",
     badge: true,
@@ -125,7 +127,7 @@ export const paginationItems = [
   {
     _id: 1005,
     img: bestSellerOne,
-    productName: "Flower Base",
+    productName: "Fantech MARS II HQ54 Wired Gaming Headset",
     price: "35.00",
     color: "Blank and White",
     badge: true,
@@ -134,7 +136,7 @@ export const paginationItems = [
   {
     _id: 1006,
     img: bestSellerTwo,
-    productName: "New Backpack",
+    productName: "Pico Neo 3 8GB RAM 256GB ROM All-In-One VR Headset",
     price: "180.00",
     color: "Gray",
     badge: false,
@@ -143,7 +145,7 @@ export const paginationItems = [
   {
     _id: 1007,
     img: bestSellerThree,
-    productName: "Household materials",
+    productName: "DJ1 Dual Battery Folding Camera Toy Drone",
     price: "25.00",
     color: "Mixed",
     badge: true,
@@ -152,7 +154,7 @@ export const paginationItems = [
   {
     _id: 1008,
     img: bestSellerFour,
-    productName: "Travel Bag",
+    productName: "InFocus INF8650 86-inch 4K Interactive Touch Display",
     price: "220.00",
     color: "Black",
     badge: false,
@@ -161,7 +163,7 @@ export const paginationItems = [
   {
     _id: 1009,
     img: newArrOne,
-    productName: "Round Table Clock",
+    productName: "Asus ExpertBook B1 B1500CEAE i3 11th Gen 15.6-inch Laptop",
     price: "44.00",
     color: "Black",
     badge: true,
@@ -170,7 +172,7 @@ export const paginationItems = [
   {
     _id: 1010,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -179,7 +181,7 @@ export const paginationItems = [
   {
     _id: 1011,
     img: newArrThree,
-    productName: "cloth Basket",
+    productName: "HP Ink Tank 315 All-in-One Printer",
     price: "80.00",
     color: "Mixed",
     badge: true,
@@ -188,7 +190,7 @@ export const paginationItems = [
   {
     _id: 1012,
     img: newArrFour,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -197,7 +199,7 @@ export const paginationItems = [
   {
     _id: 1013,
     img: newArrTwo,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -207,7 +209,7 @@ export const paginationItems = [
   {
     _id: 1014,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -216,7 +218,7 @@ export const paginationItems = [
   {
     _id: 1015,
     img: newArrFour,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -225,7 +227,7 @@ export const paginationItems = [
   {
     _id: 1016,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -234,7 +236,7 @@ export const paginationItems = [
   {
     _id: 1017,
     img: bestSellerFour,
-    productName: "Travel Bag",
+    productName: "InFocus INF8650 86-inch 4K Interactive Touch Display",
     price: "220.00",
     color: "Black",
     badge: false,
@@ -243,7 +245,7 @@ export const paginationItems = [
   {
     _id: 1018,
     img: newArrOne,
-    productName: "Round Table Clock",
+    productName: "Asus ExpertBook B1 B1500CEAE i3 11th Gen 15.6-inch Laptop",
     price: "44.00",
     color: "Black",
     badge: true,
@@ -252,7 +254,7 @@ export const paginationItems = [
   {
     _id: 1019,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -261,7 +263,7 @@ export const paginationItems = [
   {
     _id: 1020,
     img: newArrThree,
-    productName: "cloth Basket",
+    productName: "HP Ink Tank 315 All-in-One Printer",
     price: "80.00",
     color: "Mixed",
     badge: true,
@@ -288,7 +290,7 @@ export const paginationItems = [
   {
     _id: 1023,
     img: bestSellerOne,
-    productName: "Flower Base",
+    productName: "Fantech MARS II HQ54 Wired Gaming Headset",
     price: "35.00",
     color: "Blank and White",
     badge: true,
@@ -333,7 +335,7 @@ export const paginationItems = [
   {
     _id: 1028,
     img: bestSellerOne,
-    productName: "Flower Base",
+    productName: "Fantech MARS II HQ54 Wired Gaming Headset",
     price: "35.00",
     color: "Blank and White",
     badge: true,
@@ -342,7 +344,7 @@ export const paginationItems = [
   {
     _id: 1029,
     img: bestSellerTwo,
-    productName: "New Backpack",
+    productName: "Pico Neo 3 8GB RAM 256GB ROM All-In-One VR Headset",
     price: "180.00",
     color: "Gray",
     badge: false,
@@ -351,7 +353,7 @@ export const paginationItems = [
   {
     _id: 1030,
     img: bestSellerThree,
-    productName: "Household materials",
+    productName: "DJ1 Dual Battery Folding Camera Toy Drone",
     price: "25.00",
     color: "Mixed",
     badge: true,
@@ -360,7 +362,7 @@ export const paginationItems = [
   {
     _id: 1031,
     img: bestSellerFour,
-    productName: "Travel Bag",
+    productName: "InFocus INF8650 86-inch 4K Interactive Touch Display",
     price: "220.00",
     color: "Black",
     badge: false,
@@ -369,7 +371,7 @@ export const paginationItems = [
   {
     _id: 1032,
     img: newArrOne,
-    productName: "Round Table Clock",
+    productName: "Asus ExpertBook B1 B1500CEAE i3 11th Gen 15.6-inch Laptop",
     price: "44.00",
     color: "Black",
     badge: true,
@@ -378,7 +380,7 @@ export const paginationItems = [
   {
     _id: 1033,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -387,7 +389,7 @@ export const paginationItems = [
   {
     _id: 1034,
     img: newArrThree,
-    productName: "cloth Basket",
+    productName: "HP Ink Tank 315 All-in-One Printer",
     price: "80.00",
     color: "Mixed",
     badge: true,
@@ -396,7 +398,7 @@ export const paginationItems = [
   {
     _id: 1035,
     img: newArrFour,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -405,7 +407,7 @@ export const paginationItems = [
   {
     _id: 1036,
     img: newArrTwo,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -414,7 +416,7 @@ export const paginationItems = [
   {
     _id: 1037,
     img: newArrFour,
-    productName: "Funny toys for babies",
+    productName: "Arktek GeForce GT 740 2GB GDDR5 Graphics Card",
     price: "60.00",
     color: "Mixed",
     badge: false,
@@ -423,7 +425,7 @@ export const paginationItems = [
   {
     _id: 1038,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -432,7 +434,7 @@ export const paginationItems = [
   {
     _id: 1039,
     img: bestSellerFour,
-    productName: "Travel Bag",
+    productName: "InFocus INF8650 86-inch 4K Interactive Touch Display",
     price: "220.00",
     color: "Black",
     badge: false,
@@ -441,7 +443,7 @@ export const paginationItems = [
   {
     _id: 1040,
     img: newArrOne,
-    productName: "Round Table Clock",
+    productName: "Asus ExpertBook B1 B1500CEAE i3 11th Gen 15.6-inch Laptop",
     price: "44.00",
     color: "Black",
     badge: true,
@@ -450,7 +452,7 @@ export const paginationItems = [
   {
     _id: 1041,
     img: newArrTwo,
-    productName: "Smart Watch",
+    productName: "Amazfit T-Rex Ultra RUGGED AMOLED Smart Watch",
     price: "250.00",
     color: "Black",
     badge: true,
@@ -459,7 +461,7 @@ export const paginationItems = [
   {
     _id: 1042,
     img: newArrThree,
-    productName: "cloth Basket",
+    productName: "HP Ink Tank 315 All-in-One Printer",
     price: "80.00",
     color: "Mixed",
     badge: true,
@@ -486,7 +488,7 @@ export const paginationItems = [
   {
     _id: 1045,
     img: bestSellerOne,
-    productName: "Flower Base",
+    productName: "Fantech MARS II HQ54 Wired Gaming Headset",
     price: "35.00",
     color: "Blank and White",
     badge: true,
