@@ -1,9 +1,14 @@
-import img1 from "./home/01.jpg";
-import img2 from "./home/02.jpg";
-import img3 from "./home/03.jpg";
-import img4 from "./home/04.jpg";
-import img5 from "./home/05.jpg";
-import img6 from "./home/06.jpg";
+//banner images
+import img1 from "./home/banner/discount-on-app-order-home-banner-2-982x500.webp";
+import img2 from "./home/banner/samsun-ac-982x500.webp";
+import img3 from "./home/banner/stel-laptop-deal-home-banner-982x500.webp";
+
+//upsection
+import svg1 from "./home/upsection/bag-of-money.5c717061.svg";
+import svg2 from "./home/upsection/fast-delivery.db7d62de.svg";
+import svg3 from "./home/upsection/giftbox-svgrepo.4967cfa8.svg";
+import svg4 from "./home/upsection/icon_tradein.abb5ff8b.svg";
+import svg5 from "./home/upsection/verification-code.6637e985.svg";
 
 //ipsita logo
 import logo2 from "./ipsita.png";
@@ -39,6 +44,12 @@ export {
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
+  //upsection
+  svg1,
+  svg2,
+  svg3,
+  svg4,
+  svg5,
   //categories
   category1,
   category2,
@@ -63,7 +74,4 @@ export {
   img1,
   img2,
   img3,
-  img4,
-  img5,
-  img6,
 };

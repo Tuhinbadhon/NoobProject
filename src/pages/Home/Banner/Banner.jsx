@@ -1,13 +1,13 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-import { img1, img2, img3, img4, img5, img6 } from "../../../assets/index";
+import { img1, img2, img3 } from "../../../assets/index";
 
 const Banner = () => {
-  const imageSources = [img1, img2, img3, img4, img5, img6];
+  const imageSources = [img1, img2, img3];
 
   return (
-    <div className="mb-8">
+    <div className="mb-16">
       <Carousel>
         {imageSources.map((imgSrc, index) => (
           <div key={index}>

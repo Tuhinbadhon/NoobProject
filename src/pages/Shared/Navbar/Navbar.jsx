@@ -1,32 +1,44 @@
-const Navbar = () => {
+import { Link } from "react-router-dom";
+
+const NavBar = () => {
+  const handleLogOut = () => {
+    // logOut()
+    //   .then(() => {})
+    //   .catch((error) => console.log(error));
+  };
+
   const navOptions = (
     <>
       <li>
-        <a>Item 1</a>
-      </li>
-      <li tabIndex={0}>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li>
-              <a>Submenu 1</a>
-            </li>
-            <li>
-              <a>Submenu 2</a>
-            </li>
-          </ul>
-        </details>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <Link to="/menu">Our Menu</Link>
+      </li>
+      <li>
+        <Link to="/order/salad">Order Food</Link>
+      </li>
+
+      <li>
+        <Link to="/dashboard/adminHome">Dashboard</Link>
+      </li>
+
+      <li>
+        <Link to="/dashboard/userHome">Dashboard</Link>
+      </li>
+
+      <li></li>
+
+      <li>
+        <Link to="/login">Login</Link>
       </li>
     </>
   );
 
   return (
     <>
-      <div className="navbar fixed z-10 bg-opacity-60 bg-black max-w-screen-2xl mx-auto">
-        <div className="navbar-start ">
+      <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-2xl bg-black text-white">
+        <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
@@ -46,22 +58,22 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">Get started</a>
         </div>
       </div>
     </>
   );
 };
 
-export default Navbar;
+export default NavBar;
