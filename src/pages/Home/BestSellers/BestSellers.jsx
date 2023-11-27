@@ -9,12 +9,12 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const BestSellers = () => {
   return (
-    <div className="w-full pb-20">
+    <div className="w-full pb-20 mb-8">
       <SectionTitle
         subHeading={"Check & Get Your Desired Product!"}
         heading={"Best Seller"}
       />
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
+      <div className="w-full grid grid-cols-2 md:grid-cols-2 max-[495px]:grid-cols-1 xl:grid-cols-4 gap-10 mx-auto">
         <Product
           _id="1011"
           img={bestSellerOne}
