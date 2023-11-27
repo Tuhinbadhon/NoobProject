@@ -7,7 +7,7 @@ const Banner = () => {
   const imageSources = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <div>
+    <div className="mb-8">
       <Carousel>
         {imageSources.map((imgSrc, index) => (
           <div key={index}>

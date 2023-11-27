@@ -43,7 +43,7 @@ const slideContent = [
 
 const Category = () => {
   return (
-    <section>
+    <section className="mb-8">
       <SectionTitle
         subHeading={"Trip Inspiration"}
         heading={"Find the perfect place to go activities, hotels, and more."}

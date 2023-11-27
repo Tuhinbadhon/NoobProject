@@ -22,7 +22,18 @@ import slide15 from "./home/slide15.jpg";
 import logo2 from "./ipsita.png";
 import logo from "./logo-outline.png";
 
+// Best Sellers
+import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
+import bestSellerTwo from "./products/bestSeller/bestSellerTwo.webp";
+import bestSellerThree from "./products/bestSeller/bestSellerThree.webp";
+import bestSellerFour from "./products/bestSeller/bestSellerFour.webp";
+
 export {
+  // Best Sellers
+  bestSellerOne,
+  bestSellerTwo,
+  bestSellerThree,
+  bestSellerFour,
   logo,
   logo2,
   img1,

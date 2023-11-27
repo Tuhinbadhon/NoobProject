@@ -1,10 +1,11 @@
 import { logo } from "../../../assets/index.js";
+import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div>
-      <footer className="footer p-10 bg-base-200 text-base-content">
+      <footer className="grid justify-items-center sm:grid-cols-4 min-[400px]:grid-cols-2 footer p-10 bg-base-200 text-base-content">
         <nav>
           <header className="footer-title">Services</header>
           <a className="link link-hover">Branding</a>
@@ -25,9 +26,42 @@ const Footer = () => {
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </nav>
+        <nav>
+          <header className="footer-title">Stay Connected</header>
+          <div className="grid grid-flow-col gap-4 font-bold text-2xl">
+            <a
+              target="blank"
+              className="flex justify-between items-center w-full "
+              href=""
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              target="blank"
+              className="flex justify-between items-center w-full "
+              href=""
+            >
+              <FaFacebook />
+            </a>
+            <a
+              target="blank"
+              className="flex justify-between items-center w-full "
+              href=""
+            >
+              <FaInstagram />
+            </a>
+            <a
+              target="blank"
+              className="flex justify-between items-center w-full "
+              href=""
+            >
+              <FaTwitter />
+            </a>
+          </div>
+        </nav>
       </footer>
-      <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
-        <aside className="items-center grid-flow-col">
+      <footer className="footer max-[770px]:justify-items-center px-24 py-4 border-t bg-base-200 text-base-content border-base-300">
+        <aside className="items-center grid-flow-col gap-4">
           <img
             src={logo}
             xmlns="http://www.w3.org/2000/svg"

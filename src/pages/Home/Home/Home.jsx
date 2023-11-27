@@ -1,17 +1,13 @@
 import Banner from "../Banner/Banner";
+import BestSellers from "../BestSellers/BestSellers";
 import Category from "../Category/Category";
-import Featured from "../Featured/Featured";
-import Recommended from "../Recommended/Recommended";
-import EasyToUse from "../EasyToUse/EasyToUse";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto">
       <Banner />
       <Category />
-      <Featured />
-      <EasyToUse />
-      <Recommended />
+      <BestSellers />
     </div>
   );
 };
