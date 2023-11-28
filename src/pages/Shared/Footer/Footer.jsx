@@ -1,4 +1,4 @@
-import { logo } from "../../../assets/index.js";
+import { logo, payment } from "../../../assets/index.js";
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -27,36 +27,42 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </nav>
         <nav>
-          <header className="footer-title">Stay Connected</header>
-          <div className="grid grid-flow-col gap-4 font-bold text-2xl">
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full "
-              href=""
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full "
-              href=""
-            >
-              <FaFacebook />
-            </a>
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full "
-              href=""
-            >
-              <FaInstagram />
-            </a>
-            <a
-              target="blank"
-              className="flex justify-between items-center w-full "
-              href=""
-            >
-              <FaTwitter />
-            </a>
+          <div className="mb-4">
+            <header className="footer-title">Stay Connected</header>
+            <div className="grid grid-flow-col gap-4 font-bold text-2xl">
+              <a
+                target="blank"
+                className="flex justify-between items-center w-full "
+                href=""
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                target="blank"
+                className="flex justify-between items-center w-full "
+                href=""
+              >
+                <FaFacebook />
+              </a>
+              <a
+                target="blank"
+                className="flex justify-between items-center w-full "
+                href=""
+              >
+                <FaInstagram />
+              </a>
+              <a
+                target="blank"
+                className="flex justify-between items-center w-full "
+                href=""
+              >
+                <FaTwitter />
+              </a>
+            </div>
+          </div>
+          <div>
+            <header className="footer-title">Secure Payment</header>
+            <img src={payment} alt="secure-payment" />
           </div>
         </nav>
       </footer>

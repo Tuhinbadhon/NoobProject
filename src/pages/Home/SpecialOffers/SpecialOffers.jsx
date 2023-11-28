@@ -4,7 +4,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const SpecialOffers = () => {
   return (
-    <div className="w-full mb-16">
+    <div className="w-full mb-12">
       <SectionTitle
         heading={"Special Offers"}
         subHeading={"Exclusive Offers Just for You"}

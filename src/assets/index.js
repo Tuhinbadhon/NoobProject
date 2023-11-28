@@ -44,6 +44,7 @@ import spfThree from "./products/specialOffer/spfThree.webp";
 import spfFour from "./products/specialOffer/spfFour.webp";
 import offerBanner from "./home/offer-banner.webp";
 import yearImg from "./products/productOfTheYear.webp";
+import payment from "./payment.png";
 
 export {
   // Best Sellers
@@ -88,4 +89,5 @@ export {
   spfFour,
   offerBanner,
   yearImg,
+  payment,
 };

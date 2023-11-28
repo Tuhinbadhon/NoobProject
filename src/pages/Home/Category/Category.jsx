@@ -88,7 +88,7 @@ const categories = [
 
 const Category = () => {
   return (
-    <section className="mb-16">
+    <section className="mb-12">
       <SectionTitle
         subHeading={"Get Your Desired Product from Featured Category!"}
         heading={"Featured Category"}

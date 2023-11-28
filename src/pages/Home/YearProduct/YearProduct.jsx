@@ -4,7 +4,7 @@ import { yearImg } from "../../../assets/index";
 const YearProduct = () => {
   return (
     <div
-      className="hero min-h-fit mb-16"
+      className="hero min-h-[50vh] mb-12"
       style={{
         backgroundImage: `url(${yearImg})`,
       }}
