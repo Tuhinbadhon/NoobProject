@@ -4,7 +4,7 @@ import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div>
+    <div className="footerClass ">
       <footer className="grid justify-items-center sm:grid-cols-4 min-[400px]:grid-cols-2 footer p-10 bg-base-200 text-base-content">
         <nav>
           <header className="footer-title">Services</header>

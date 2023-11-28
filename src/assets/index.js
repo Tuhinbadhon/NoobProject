@@ -37,6 +37,12 @@ import category13 from "./home/category/router-48x48.png";
 import category14 from "./home/category/smart-watch-48x48.png";
 import category15 from "./home/category/tv-48x48.png";
 import category16 from "./home/category/vr-48x48.png";
+//specialOffers
+import spfOne from "./products/specialOffer/spfOne.webp";
+import spfTwo from "./products/specialOffer/spfTwo.webp";
+import spfThree from "./products/specialOffer/spfThree.webp";
+import spfFour from "./products/specialOffer/spfFour.webp";
+import offerBanner from "./home/offer-banner.webp";
 
 export {
   // Best Sellers
@@ -74,4 +80,10 @@ export {
   img1,
   img2,
   img3,
+  //specialOffers
+  spfOne,
+  spfTwo,
+  spfThree,
+  spfFour,
+  offerBanner,
 };

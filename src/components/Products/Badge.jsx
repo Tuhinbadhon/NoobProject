@@ -1,8 +1,11 @@
 const Badge = ({ text }) => {
   return (
-    <div className="bg-primeColor w-[92px] h-[35px] text-white flex justify-center items-center text-base font-semibold hover:bg-black duration-300 cursor-pointer">
+    <span
+      className="bg-blue-100 hover:bg-blue-300 text-blue-800 text-xs font-medium px-8 py-2
+     rounded"
+    >
       {text}
-    </div>
+    </span>
   );
 };
 
