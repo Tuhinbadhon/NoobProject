@@ -12,7 +12,7 @@ const imageLinks = [
 
 const Banner = () => {
   return (
-    <div className="m-auto max-w-4xl">
+    <div className="max-w-4xl">
       <Carousel
         className="carousel-root"
         showThumbs={false}

@@ -8,7 +8,6 @@ import {
   brand7,
   brand8,
   brand9,
-  brand10,
 } from "../../../assets/index";
 
 const ShopByBrands = () => {
@@ -22,14 +21,16 @@ const ShopByBrands = () => {
     brand7,
     brand8,
     brand9,
-    brand10,
   ];
   return (
     <div className="flex flex-col items-center m-auto p-4">
       <h2 className="text-lg font-bold mb-4 text-gray-600 uppercase">
         Shop by Brands
       </h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div
+        className="grid grid-cols-3 max-[1024px]:grid-cols-9 max-[768px]:grid-cols-6
+       max-[500px]:grid-cols-4  max-[300px]:grid-cols-3 gap-4"
+      >
         {brandImages.map((imgSrc, index) => (
           <a
             href="https://www.ipsitasoft.com/"

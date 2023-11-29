@@ -55,7 +55,6 @@ import brand6 from "./brands/pngwing.com (6).png";
 import brand7 from "./brands/pngwing.com (7).png";
 import brand8 from "./brands/pngwing.com (8).png";
 import brand9 from "./brands/pngwing.com (9).png";
-import brand10 from "./brands/pngwing.com.png";
 import sideImg from "./side.jpg";
 
 export {
@@ -112,6 +111,5 @@ export {
   brand7,
   brand8,
   brand9,
-  brand10,
   sideImg,
 };

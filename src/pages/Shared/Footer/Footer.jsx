@@ -5,7 +5,11 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="footerClass ">
-      <footer className="grid justify-items-center sm:grid-cols-4 min-[400px]:grid-cols-2 footer p-10 bg-base-200 text-base-content">
+      <footer
+        className="grid justify-items-center max-[540px]:place-items-start 
+        sm:grid-cols-4 max-[540px]:grid-cols-2 footer
+       p-6 bg-base-200 text-base-content"
+      >
         <nav>
           <header className="footer-title">Services</header>
           <a className="link link-hover">Branding</a>
@@ -66,7 +70,10 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <footer className="footer max-[770px]:justify-items-center px-24 py-4 border-t bg-base-200 text-base-content border-base-300">
+      <footer
+        className="footer px-20 max-[500px]:px-4 max-[768px]:px-8 py-4 border-t bg-base-200 text-base-content
+       border-base-300 flex justify-between"
+      >
         <aside className="items-center grid-flow-col gap-4">
           <img
             src={logo}
@@ -80,11 +87,10 @@ const Footer = () => {
             Providing reliable tech since 1994
           </h3>
         </aside>
-        <nav className="md:place-self-center md:justify-self-end">
-          <div className="grid grid-flow-col gap-4">
-            <p>Copyright © {currentYear} - All right reserved</p>
-          </div>
-        </nav>
+
+        <p className="text-end">
+          Copyright © {currentYear} - All right reserved
+        </p>
       </footer>
     </div>
   );
