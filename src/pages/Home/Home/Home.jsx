@@ -10,11 +10,11 @@ import YearProduct from "../YearProduct/YearProduct";
 const Home = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="flex gap-4 mb-12">
+      <div className="flex gap-4 mb-12 py-20">
         <div className="basis-3/4">
           <Banner />
         </div>
-        <div className="basis-1/4 bg-gray-50">
+        <div className="basis-1/4 bg-gray-50 rounded shadow-sm">
           <ShopByBrands />
         </div>
       </div>
