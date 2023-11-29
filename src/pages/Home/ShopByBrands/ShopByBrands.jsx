@@ -25,14 +25,16 @@ const ShopByBrands = () => {
     brand10,
   ];
   return (
-    <div className="flex flex-col items-center p-4">
+    <div className="flex flex-col items-center m-auto p-4 py-20">
       <h2 className="text-lg font-bold mb-4 text-gray-600 uppercase">
         Shop by Brands
       </h2>
       <div className="grid grid-cols-3 gap-4">
         {brandImages.map((imgSrc, index) => (
           <a
-            href=""
+            href="https://www.ipsitasoft.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg
              hover:shadow-blue-200 w-20 h-20 flex items-center justify-center"
             key={index}
