@@ -45,6 +45,18 @@ import spfFour from "./products/specialOffer/spfFour.webp";
 import offerBanner from "./home/offer-banner.webp";
 import yearImg from "./products/productOfTheYear.webp";
 import payment from "./payment.png";
+//brands
+import brand1 from "./brands/pngwing.com (1).png";
+import brand2 from "./brands/pngwing.com (2).png";
+import brand3 from "./brands/pngwing.com (3).png";
+import brand4 from "./brands/pngwing.com (4).png";
+import brand5 from "./brands/pngwing.com (5).png";
+import brand6 from "./brands/pngwing.com (6).png";
+import brand7 from "./brands/pngwing.com (7).png";
+import brand8 from "./brands/pngwing.com (8).png";
+import brand9 from "./brands/pngwing.com (9).png";
+import brand10 from "./brands/pngwing.com.png";
+import sideImg from "./side.jpg";
 
 export {
   // Best Sellers
@@ -90,4 +102,16 @@ export {
   offerBanner,
   yearImg,
   payment,
+  //brands
+  brand1,
+  brand2,
+  brand3,
+  brand4,
+  brand5,
+  brand6,
+  brand7,
+  brand8,
+  brand9,
+  brand10,
+  sideImg,
 };
