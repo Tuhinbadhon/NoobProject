@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import { BsSuitHeartFill } from "react-icons/bs";
 import { GiReturnArrow } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
@@ -98,6 +100,16 @@ const Product = (props) => {
           </h2>
           <p className="text-teal-600 text-lg font-semibold">${props.price}</p>
         </div>
+
+        <Link
+          to={{
+            pathname: `/product/${rootId}`,
+            state: {
+              item: props,
+            },
+          }}
+          className="text-blue-600 hover:underline cursor-pointer"
+        ></Link>
       </div>
     </div>
   );

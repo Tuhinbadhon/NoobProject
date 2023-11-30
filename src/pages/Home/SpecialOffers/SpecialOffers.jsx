@@ -16,6 +16,7 @@ const SpecialOffers = () => {
           productName="A4tech Bloody M590i Gaming Headphone"
           price="35.00"
           color="Blank and White"
+          brand="A4tech"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -25,6 +26,7 @@ const SpecialOffers = () => {
           productName="PS4 Dualshock 4 Wireless Controller Steel Glacier White"
           price="180.00"
           color="Gray"
+          brand="Microsoft"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -34,6 +36,7 @@ const SpecialOffers = () => {
           productName="Mibro Watch GS GPS Sports Smart Watch"
           price="25.00"
           color="Mixed"
+          brand="Mibro"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -43,6 +46,7 @@ const SpecialOffers = () => {
           productName="Hoco HC9 Dazzling Pulse Wireless Bluetooth Speaker"
           price="220.00"
           color="Black"
+          brand="Hoco"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />

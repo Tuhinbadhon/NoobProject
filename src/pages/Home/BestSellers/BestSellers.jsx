@@ -20,7 +20,10 @@ const BestSellers = () => {
           img={bestSellerOne}
           productName="Fantech MARS II HQ54 Wired Gaming Headset"
           price="35.00"
+          stock="5"
+          size="100"
           color="Blank and White"
+          brand="Fantech"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -30,6 +33,7 @@ const BestSellers = () => {
           productName="Pico Neo 3 8GB RAM 256GB ROM All-In-One VR Headset"
           price="180.00"
           color="Gray"
+          brand="Pico"
           badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -39,6 +43,7 @@ const BestSellers = () => {
           productName="DJ1 Dual Battery Folding Camera Toy Drone"
           price="25.00"
           color="Mixed"
+          brand="DJI"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
@@ -48,6 +53,7 @@ const BestSellers = () => {
           productName="InFocus INF8650 86-inch 4K Interactive Touch Display"
           price="220.00"
           color="Black"
+          brand="InFocus"
           badge={false}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
         />
