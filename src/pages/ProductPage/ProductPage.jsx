@@ -2,7 +2,6 @@ import { useLocation } from "react-router-dom";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/orebiSlice";
-import Badge from "./Badge";
 import { FaShoppingCart } from "react-icons/fa";
 import { BsSuitHeartFill } from "react-icons/bs";
 
@@ -53,8 +52,8 @@ const ProductPage = () => {
   };
 
   return (
-    <div className="container mx-auto mt-8 bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 m-auto max-w-6xl pt-8">
+    <div className="container mx-auto m-4  rounded bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 m-auto max-w-6xl p-4">
         <div>
           <img
             src={productItem.img}

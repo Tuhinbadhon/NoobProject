@@ -3,6 +3,7 @@ import { FaHeartCirclePlus, FaCodeCompare } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
 
 import { logo } from "../../../assets/index";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,15 +25,15 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-900 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
+        <Link
+          to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={logo} className="h-8" alt="Ipsita logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap text-gray-300">
             Ipsita-Mart
           </span>
-        </a>
+        </Link>
         <div className="flex md:order-2">
           <button
             type="button"
@@ -98,33 +99,39 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
-                href="#"
+                to="/products"
               >
                 Products
-              </a>
+              </Link>
             </li>
             <li className="flex items-center">
-              <a className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0">
+              <Link
+                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
+                to="/wishlist"
+              >
                 <FaHeartCirclePlus className="mr-2" />
                 <span>Wishlist</span>
-              </a>
+              </Link>
             </li>
             <li className="flex items-center">
-              <a className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0">
+              <Link
+                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
+                to="/compare"
+              >
                 <FaCodeCompare className="mr-2" />
                 <span>Compare</span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

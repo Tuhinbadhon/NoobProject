@@ -23,7 +23,7 @@ const ShopByBrands = () => {
     brand9,
   ];
   return (
-    <div className="flex flex-col items-center m-auto p-4">
+    <div className="flex flex-col items-center m-auto p-4 bg-gray-50 rounded">
       <h2 className="text-lg font-bold mb-4 text-gray-600 uppercase">
         Shop by Brands
       </h2>

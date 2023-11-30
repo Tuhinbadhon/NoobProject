@@ -14,7 +14,7 @@ const Home = () => {
         <div className="basis-3/4">
           <Banner />
         </div>
-        <div className="basis-1/4 bg-gray-50 rounded shadow-sm">
+        <div className="basis-1/4 rounded shadow-sm">
           <ShopByBrands />
         </div>
       </div>
