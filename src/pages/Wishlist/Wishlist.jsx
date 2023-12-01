@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const WishList = () => {
+const Wishlist = () => {
   useEffect(() => {
     // Scroll to the top of the page on component mount
     window.scrollTo(0, 0);
@@ -13,4 +13,4 @@ const WishList = () => {
   );
 };
 
-export default WishList;
+export default Wishlist;
