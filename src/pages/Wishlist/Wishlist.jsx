@@ -8,7 +8,7 @@ const WishList = () => {
 
   return (
     <div>
-      <h3 className="m-auto max-w-6xl p-28">Compare your products</h3>
+      <h3 className="m-auto max-w-6xl p-28">Wishlist here</h3>
     </div>
   );
 };

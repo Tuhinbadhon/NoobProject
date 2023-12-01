@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
-import Home from "../pages/Home/Home/Home";
+import Home from "./../pages/Home/Home/Home";
 import ProductDetails from "./../pages/ProductDetails/ProductDetails";
-import Compare from "../pages/Compare/Compare";
-import Wishlist from "../pages/Wishlist/WishList";
-import Products from "../pages/Products/Products";
+import WishList from "./../pages/Wishlist/WishList";
+import Compare from "./../pages/Compare/Compare";
+import Products from "./../pages/Products/Products";
 import Signup from "./../pages/Users/Signup";
 import Login from "./../pages/Users/Login";
 import Profile from "./../pages/Users/Profile";
@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "wishlist",
-        element: <Wishlist />,
+        element: <WishList />,
       },
       {
         path: "compare",
