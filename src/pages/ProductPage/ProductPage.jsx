@@ -52,8 +52,8 @@ const ProductPage = () => {
   };
 
   return (
-    <div className="container mx-auto m-4  rounded bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-24 m-auto max-w-6xl p-4">
+    <div className="container mx-auto m-4 rounded bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-12 m-auto max-w-6xl p-4">
         <div>
           <img
             src={productItem.img}

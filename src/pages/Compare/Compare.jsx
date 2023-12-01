@@ -1,7 +1,7 @@
 const Compare = () => {
   return (
     <div>
-      <h3>Compare your products</h3>
+      <h3 className="pt-16">Compare your products</h3>
     </div>
   );
 };
