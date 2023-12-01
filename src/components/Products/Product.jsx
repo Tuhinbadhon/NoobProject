@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { BsSuitHeartFill } from "react-icons/bs";
 import { GiReturnArrow } from "react-icons/gi";

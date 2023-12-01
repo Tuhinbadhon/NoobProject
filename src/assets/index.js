@@ -13,6 +13,7 @@ import svg5 from "./home/upsection/verification-code.6637e985.svg";
 //ipsita logo
 import logo2 from "./ipsita.png";
 import logo from "./logo-outline.png";
+import logotp from "./ipsita-logo.png";
 
 // Best Sellers
 import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
@@ -89,6 +90,7 @@ export {
   //ipsita logo
   logo,
   logo2,
+  logotp,
   //banners
   img1,
   img2,

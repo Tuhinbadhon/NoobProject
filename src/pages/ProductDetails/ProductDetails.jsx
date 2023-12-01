@@ -1,11 +1,11 @@
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../redux/orebiSlice";
 import { FaShoppingCart } from "react-icons/fa";
 import { BsSuitHeartFill } from "react-icons/bs";
 
-const ProductPage = () => {
+const ProductDetails = () => {
   const location = useLocation();
   const { state } = location;
   const productItem = state?.item;
@@ -30,6 +30,11 @@ const ProductPage = () => {
     }
   };
 
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!productItem) {
     return <div>No product details available.</div>;
   }
@@ -52,8 +57,8 @@ const ProductPage = () => {
   };
 
   return (
-    <div className="container mx-auto m-4 rounded bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-12 m-auto max-w-6xl p-4">
+    <div className="container mx-auto mt-0 rounded bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 m-auto max-w-6xl p-28">
         <div>
           <img
             src={productItem.img}
@@ -140,4 +145,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default ProductDetails;

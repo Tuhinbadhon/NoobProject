@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 import { FaHeartCirclePlus, FaCodeCompare } from "react-icons/fa6";
-import { FaSearch, FaThList, FaHome } from "react-icons/fa";
+import {
+  FaSearch,
+  FaThList,
+  FaHome,
+  FaWpforms,
+  FaRegUser,
+} from "react-icons/fa";
 import { logo } from "../../../assets/index";
 import { Link } from "react-router-dom";
 
@@ -133,7 +139,7 @@ const Navbar = () => {
                 to="/wishlist"
               >
                 <FaHeartCirclePlus className="mr-2" />
-                <span>Wishlist</span>
+                <span>WishList</span>
               </Link>
             </li>
             <li className="flex items-center">
@@ -143,6 +149,24 @@ const Navbar = () => {
               >
                 <FaCodeCompare className="mr-2" />
                 <span>Compare</span>
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Link
+                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
+                to="/signup"
+              >
+                <FaWpforms className="mr-2" />
+                <span>Signup</span>
+              </Link>
+            </li>
+            <li className="flex items-center">
+              <Link
+                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
+                to="/login"
+              >
+                <FaRegUser className="mr-2" />
+                <span>Login</span>
               </Link>
             </li>
           </ul>

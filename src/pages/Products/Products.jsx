@@ -1,9 +1,9 @@
-const Products = () => {
+const ProductsPage = () => {
   return (
     <div>
-      <h3 className="pt-16">Hello from product page</h3>
+      <h3 className="max-w-6xl p-28">Hello from product page</h3>
     </div>
   );
 };
 
-export default Products;
+export default ProductsPage;
