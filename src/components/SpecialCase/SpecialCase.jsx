@@ -2,12 +2,19 @@ import { Link } from "react-router-dom";
 import { RiShoppingCart2Fill } from "react-icons/ri";
 import { MdSwitchAccount } from "react-icons/md";
 import { useSelector } from "react-redux";
+import { useEffect } from "react";
 
 const SpecialCase = () => {
   const products = useSelector((state) => state.orebiReducer.products);
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <div className="fixed top-52 z-20 hidden md:flex flex-col gap-2 ">
-      <Link to="/signin">
+      <Link to="/login">
         <div className="bg-gray-50 hover:bg-[#33475b] w-16 h-[70px] rounded-r-md flex flex-col gap-1 text-[#33475b] hover:text-gray-50 justify-center items-center shadow-testShadow overflow-x-hidden group cursor-pointer">
           <div className="flex justify-center items-center">
             <MdSwitchAccount className="text-2xl -translate-x-12 group-hover:translate-x-3 transition-transform duration-200" />
