@@ -57,8 +57,8 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="container mx-auto mt-0 rounded bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 m-auto max-w-6xl p-28">
+    <div className="container mx-auto rounded bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mx-auto max-w-6xl pt-28">
         <div>
           <img
             src={productItem.img}

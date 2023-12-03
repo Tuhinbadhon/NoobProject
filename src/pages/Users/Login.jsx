@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { logotp } from "../../assets";
+import { FcGoogle } from "react-icons/fc";
+import { FaRegEyeSlash } from "react-icons/fa";
 
 const Login = () => {
-  // State for form fields
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -19,58 +20,72 @@ const Login = () => {
     setEmail("");
     setPassword("");
   };
-
   return (
-    <div className="container mx-auto mt-0 rounded bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 m-auto max-w-6xl p-28">
-        <div>
-          <img src={logotp} className="w-[80%] h-auto" />
+    <div className="bg-gray-50 flex rounded-2xl shadow-lg max-w-3xl items-center p-5 mx-auto">
+      {/* form */}
+      <div className="md:w-1/2 px-8 md:px-16 m-28 mx-auto max-h-fit">
+        <h2 className="font-bold text-2xl text-[#002D74]">Login</h2>
+        <p className="text-xs mt-4 text-[#002D74]">
+          If you are already a member, easily log in
+        </p>
+
+        <form action="" className="flex flex-col gap-4" onSubmit={handleLogin}>
+          <input
+            className="p-2 mt-8 rounded-xl border"
+            type="email"
+            id="email"
+            name="email"
+            value={email}
+            placeholder="Email"
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <div className="relative">
+            <input
+              className="p-2 rounded-xl border w-full"
+              type="password"
+              id="password"
+              name="password"
+              value={password}
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+            <FaRegEyeSlash className="bi bi-eye absolute top-1/2 right-3 -translate-y-1/2" />
+          </div>
+          <button className="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300">
+            Login
+          </button>
+        </form>
+
+        <div className="mt-6 grid grid-cols-3 items-center text-gray-400">
+          <hr className="border-gray-400" />
+          <p className="text-center text-sm">OR</p>
+          <hr className="border-gray-400" />
         </div>
-        <div>
-          <h2 className="text-3xl font-bold mb-4">Login</h2>
-          <form onSubmit={handleLogin} className="max-w-md">
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-gray-600 font-semibold"
-              >
-                Email:
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="password"
-                className="block text-gray-600 font-semibold"
-              >
-                Password:
-              </label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-blue-500 text-white font-bold px-4 py-2 rounded-md hover:bg-blue-700"
-            >
-              Login
-            </button>
-          </form>
+
+        <button className="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center gap-2 text-sm hover:scale-105 duration-300 ">
+          <FcGoogle /> <span className="text-[#002D74]">Login with Google</span>
+        </button>
+
+        <div className="mt-5 text-xs border-b border-[#002D74] py-4 text-[#002D74]">
+          <a href="#">Forgot your password?</a>
         </div>
+
+        <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
+          <p>Don`t have an account?</p>
+          <button className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">
+            Register
+          </button>
+        </div>
+      </div>
+
+      {/* image */}
+      <div className="md:block hidden w-1/2">
+        <img className="rounded-2xl mx-auto" src={logotp} alt="Login" />
+        <h3 className="uppercase text-center text-gray-900 text-2xl font-bold">
+          Ipsita Mart
+        </h3>
       </div>
     </div>
   );
