@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footerClass ">
       <footer
-        className="grid justify-items-center max-[540px]:place-items-start 
+        className="grid justify-items-center max-[540px]:place-items-start max-[280px]:place-items-center 
         sm:grid-cols-4 max-[540px]:grid-cols-2 footer
        p-6 bg-base-200 text-base-content"
       >
@@ -33,7 +33,7 @@ const Footer = () => {
         <nav>
           <div className="mb-4">
             <header className="footer-title">Stay Connected</header>
-            <div className="grid grid-flow-col gap-4 font-bold text-2xl">
+            <div className="grid grid-flow-col gap-4 font-bold text-2xl max-[540px]:text-base">
               <a
                 target="blank"
                 className="flex justify-between items-center w-full "
