@@ -1,13 +1,18 @@
 import { useState, useEffect } from "react";
-import { FaHeartCirclePlus, FaCodeCompare } from "react-icons/fa6";
-import { FaSearch, FaThList, FaHome, FaRegUser } from "react-icons/fa";
+import {
+  FcServices,
+  FcHome,
+  FcList,
+  FcVoicePresentation,
+  FcSearch,
+} from "@meronex/icons/fc/";
 import { logo } from "../../../assets/index";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,32 +45,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav
-      className={`bg-gray-900 w-full fixed z-20 ${
-        scrolled ? "bg-gray-900" : "dark:bg-gray-900"
-      }`}
-    >
+    <nav className={`bg-black w-full fixed z-20`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link
           to="/"
           onClick={scrollToTop}
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src={logo} className="h-8" alt="Ipsita logo" />
-          <span className="self-center md:text-2xl font-mono font-bold whitespace-nowrap text-gray-300">
-            IPSITA MART
+          <img src={logo} className="h-8" alt="logo" />
+          <span className="self-center md:text-2xl font-mono font-bold whitespace-nowrap text-white">
+            TechShop
           </span>
         </Link>
         <div className="flex md:order-2">
-          <button
-            type="button"
-            onClick={toggleSearch}
-            className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200
-             dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
-          >
-            <FaSearch />
-            <span className="sr-only">Search</span>
-          </button>
           <div
             className={`relative ${isSearchOpen ? "block" : "hidden"} md:block`}
           >
@@ -74,9 +66,19 @@ const Navbar = () => {
               id="search-navbar"
               className="w-32 p-3 text-xs text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-gray-500 focus:border-gray-500 dark:bg-gray-700
     dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-              placeholder="Search..."
+              placeholder="Search here..."
             />
           </div>
+
+          <button
+            type="button"
+            onClick={toggleSearch}
+            className="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200
+             dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
+          >
+            <FcSearch />
+            <span className="sr-only">Search</span>
+          </button>
 
           <button
             type="button"
@@ -103,7 +105,7 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={`bg-gray-900 absolute top-14 right-0 ${
+          className={`bg-black absolute top-14 right-0 ${
             isMenuOpen ? "block" : "hidden"
           } md:relative md:flex md:space-x-4 md:mt-0 md:border-0 md:top-0`}
         >
@@ -111,47 +113,38 @@ const Navbar = () => {
             <li>
               <Link
                 to="/"
-                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
+                className="flex items-center py-2 px-3 text-gray-100 rounded md:p-0"
                 aria-current="page"
               >
-                <FaHome className="mr-2" />
+                <FcHome className="mr-2" />
                 <span>Home</span>
               </Link>
             </li>
             <li>
               <Link
-                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
-                to="/products"
+                className="flex items-center py-2 px-3 text-gray-100 rounded md:p-0"
+                to="/About"
               >
-                <FaThList className="mr-2" />
-                <span>Products</span>
+                <FcList className="mr-2" />
+                <span>About</span>
               </Link>
             </li>
             <li className="flex items-center">
               <Link
-                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
-                to="/wishlist"
+                className="flex items-center py-2 px-3 text-gray-100 rounded md:p-0"
+                to="/Services"
               >
-                <FaHeartCirclePlus className="mr-2" />
-                <span>WishList</span>
+                <FcServices className="mr-2" />
+                <span>Services</span>
               </Link>
             </li>
             <li className="flex items-center">
               <Link
-                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
-                to="/compare"
+                className="flex items-center py-2 px-3 text-gray-100 rounded md:p-0"
+                to="/Contact"
               >
-                <FaCodeCompare className="mr-2" />
-                <span>Compare</span>
-              </Link>
-            </li>
-            <li className="flex items-center">
-              <Link
-                className="flex items-center py-2 px-3 text-gray-200 rounded md:p-0"
-                to="/login"
-              >
-                <FaRegUser className="mr-2" />
-                <span>Login</span>
+                <FcVoicePresentation className="mr-2" />
+                <span>ContactUs</span>
               </Link>
             </li>
           </ul>

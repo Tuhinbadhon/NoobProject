@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { logotp } from "../../assets";
 import { FcGoogle } from "react-icons/fc";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -33,9 +32,7 @@ const Signup = () => {
       {/* form */}
       <div className="md:w-1/2 px-8 my-28 mx-auto max-h-fit">
         <h2 className="font-bold text-2xl text-[#002D74]">Sign Up</h2>
-        <p className="text-xs mt-2 text-[#002D74]">
-          Create your Ipsita Mart account
-        </p>
+        <p className="text-xs mt-2 text-[#002D74]">It&apos;s quick and easy.</p>
 
         <form
           action=""
@@ -103,14 +100,6 @@ const Signup = () => {
             Login
           </Link>
         </div>
-      </div>
-
-      {/* image */}
-      <div className="md:block hidden w-1/2">
-        <img className="rounded-2xl mx-auto" src={logotp} alt="Login" />
-        <h3 className="uppercase text-center text-gray-900 text-2xl font-bold">
-          Ipsita Mart
-        </h3>
       </div>
     </div>
   );

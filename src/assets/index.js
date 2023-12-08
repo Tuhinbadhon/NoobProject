@@ -1,25 +1,23 @@
 //banner images
-import img1 from "./home/banner/discount-on-app-order-home-banner-2-982x500.webp";
-import img2 from "./home/banner/samsun-ac-982x500.webp";
-import img3 from "./home/banner/stel-laptop-deal-home-banner-982x500.webp";
-
+import img1 from "./home/banner/IMG-20231022-WA0004-982x500.jpg";
+import img2 from "./home/banner/basanto-home-982x500-1.webp";
+import img3 from "./home/banner/new-year-offer-2.jpeg-982x500-1.jpeg";
 //upsection
 import svg1 from "./home/upsection/bag-of-money.5c717061.svg";
 import svg2 from "./home/upsection/fast-delivery.db7d62de.svg";
 import svg3 from "./home/upsection/giftbox-svgrepo.4967cfa8.svg";
 import svg4 from "./home/upsection/icon_tradein.abb5ff8b.svg";
 import svg5 from "./home/upsection/verification-code.6637e985.svg";
+// Best Sellers
+import bestSellerOne from "./products/bestSeller/bestsellers1.jpg";
+import bestSellerTwo from "./products/bestSeller/bestsellers2.webp";
+import bestSellerThree from "./products/bestSeller/bestsellers3.webp";
+import bestSellerFour from "./products/bestSeller/bestsellers4.webp";
 
 //ipsita logo
 import logo2 from "./ipsita.png";
-import logo from "./logo-outline.png";
+import logo from "./newlogo1.png";
 import logotp from "./ipsita-logo.png";
-
-// Best Sellers
-import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
-import bestSellerTwo from "./products/bestSeller/bestSellerTwo.webp";
-import bestSellerThree from "./products/bestSeller/bestSellerThree.webp";
-import bestSellerFour from "./products/bestSeller/bestSellerFour.webp";
 
 //categories
 import category1 from "./home/category/action-camera-48x48.png";

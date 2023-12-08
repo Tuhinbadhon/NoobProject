@@ -4,15 +4,11 @@ import { img1, img2, img3 } from "../../../assets/index";
 
 const imageSources = [img1, img2, img3];
 
-const imageLinks = [
-  "https://www.ipsitasoft.com/",
-  "https://www.ipsitasoft.com/",
-  "https://www.ipsitasoft.com/",
-];
+const imageLinks = ["", "", ""];
 
 const Banner = () => {
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl ml-2 mt-4">
       <Carousel
         className="carousel-root"
         showThumbs={false}
